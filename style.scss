@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+  }
+  
+  .Panelizq_ {
+    display: flex;
+  }
+  
+  #Menudelaizquierda {
+    width: 30vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(255, 208, 0);
+    color: rgb(0, 17, 255);
+}
+  
+  .menu_item {
+    background-color: rgb(0, 60, 255);
+    color: rgb(241, 197, 0);
+    margin: 1px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu_item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(241, 197, 0);
+    text-transform: uppercase;
+  }
+  
+  .menu_item span {
+    font-size: 12px;
+    color: rgb(241, 197, 0);
+    text-transform: uppercase;
+  }
+  
+  #map {
+    left: 30vw;
+    position: fixed;
+    top: 0;
+    width: 70vw;
+    height: 100vh;
+  }
+  
+  .acceso_item {
+    width: 80px;
+    height: 22px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid yellow;
+  }
+  
+  .info_item {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 22px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid yellow;
+    padding: 2px;
+  }
+  
+  .titulo_menu {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu_item:hover {
+    background-color: rgb(241, 197, 0);
+  }
+  
+  .menu_item:hover p {
+    color: rgb(36, 0, 194);
+  }
+  
+  .menu_item:hover span {
+    color: rgb(55, 0, 255);
+  }
+  
+  .menu_item:hover .info_item, .menu_item:hover .acceso_item {
+    color: rgb(4, 0, 253);}
+
+
+    //----------------------AUTOR//
+
+    
+    #autor, #info {
+        position: fixed;
+        padding: 0.5rem;
+        box-shadow: 0 0 4px 1px black;
+        z-index: 999;
+        background-color: lightblue;
+      }
+      
+      #autor {
+        top: 1rem;
+        right: 1rem;
+      }
+      #autor button {
+        font-size: 1.3rem;
+        padding: 1rem;
+      }
